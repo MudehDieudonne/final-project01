@@ -129,24 +129,24 @@ p {
   height: 45px;
   padding: 8px;
   border-radius: 5%;
-  color: #ffffff;
+  color: #fff;
   border: 2.5px solid #fcfcfc;
   cursor: pointer;
   background-color: transparent;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
 .span {
-  color: rgb(0, 123, 255);
+  color: #007bff;
 }
 
 .main-sec04 {
-  padding:5%;
+  padding: 5%;
   margin: 3%;
   display: flex;
   justify-content: space-between;
-  width:100%;
+  width: 100%;
 }
 
 .main-sec05 {
@@ -166,20 +166,21 @@ p {
   padding: 5%;
   background-color: #eaeaea;
 }
-/* card*/
+
+/* card */
 
 .grid-item {
   display: block;
   margin: 0.9em;
   overflow: hidden;
   position: relative;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   text-align: left;
   border-radius: 0.5rem;
   max-width: 350px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 10%), 0 10px 10px -5px rgba(0, 0, 0, 4%);
 }
- 
+
 .image {
   display: flex;
   margin-left: auto;
@@ -196,14 +197,14 @@ p {
 
 .message {
   margin-top: 0.5rem;
-  color: #6B7280;
+  color: #6b7280;
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
 .actions {
   margin: 0.75rem 1rem;
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
 }
 
 .cancel {
@@ -218,12 +219,7 @@ p {
   width: 100%;
   border-radius: 0.375rem;
   border: 1px solid #2475f0;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.main-sec05 {
-  display: block;
-
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 5%);
 }
 
 .sec-5 {
@@ -263,10 +259,10 @@ p {
   padding: 2em;
   margin: 2em;
   justify-content: center;
-  border-bottom: 1px solid rgb(0, 136, 255);
+  border-bottom: 1px solid #0088ff;
 }
 
-.grid-sec07{
+.grid-sec07 {
   display: block;
   justify-content: space-evenly;
   align-items: center;
@@ -274,17 +270,18 @@ p {
   padding: 5%;
   background-color: #fdfbfb;
 }
-/*Footer start*/
+
+/* Footer start */
 
 footer {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #16222A;
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
+  background: #16222a;
   background: linear-gradient(59deg, #070b0ed4, #000306f8);
   color: white;
-  margin-top:100px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
-  align-items:safe;
+  align-items: safe;
 }
 
 .row {
@@ -295,21 +292,23 @@ footer {
   padding-top: 2em;
 }
 
-footer, a {
+footer,
+a {
   color: #fff;
   font-size: 14px;
   transition-duration: 0.2s;
 }
-  
+
 footer a:hover {
-  color: #FA944B;
+  color: #fa954c;
   text-decoration: none;
 }
-  
+
 .copy-right-sec {
   font-size: 12px;
   padding: 10px;
-  border-top: 1px solid #FFFFFF;  
+  border-top: 1px solid #ffffff;
+
 }
 
 li {
@@ -327,8 +326,11 @@ li {
   height: 30px;
   border-radius: 50%;
 }
-/*footer end*/
+
+/* footer end */
 
 @media only screen and (min-width: 720px){
+  
+  /* For  pc design */
 
 }
