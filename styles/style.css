@@ -48,7 +48,7 @@ button {
   box-shadow: 2px 5px 20px -20px;
   cursor: pointer;
   background-color: transparent;
-  font-family: 'Poppins', sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
 }
 
@@ -178,7 +178,7 @@ p {
   text-align: left;
   border-radius: 0.5rem;
   max-width: 350px;
-  box-shadow: 0 20px 25px -5px #0000001a, 0 10px 10px -5px hsla(0, 0%, 0%, 0.04);
+  box-shadow: 0 20px 25px -5px #0000001a, 0 10px 10px -5px hwb(0deg 0% 100% / 4%);
 }
 
 .image {
