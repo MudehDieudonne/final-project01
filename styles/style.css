@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -22,14 +23,14 @@ body {
 }
 
 .logo {
-  padding: 3%;
-  margin: 3%;
+  padding: 0.7rem;
+  margin: 0.8rem;
 }
 
 .hero {
-  margin: 5%;
-  padding: 6%;
-  width: 50%;
+  margin: 0.9em;
+  padding: 1em;
+  width: 75%;
 }
 
 .nav {
@@ -42,9 +43,9 @@ button {
   height: 45px;
   padding: 8px;
   margin: 0.5em;
-  border-radius: 5%;
+  border-radius: 5px;
   color: #e0e1e4;
-  border: 2.5px solid #e0e1e4;
+  border: 1px solid #e0e1e4;
   box-shadow: 2px 5px 20px -20px;
   cursor: pointer;
   background-color: transparent;
@@ -59,17 +60,19 @@ h4 {
   font-weight: bolder;
   color: #08f;
 }
-
+:root {
+  --primary-font: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
 h2 {
-  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-family: var(--primary-font);
 }
 
 h1 {
-  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-family: var(--primary-font);
 }
 
 p {
-  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-family: var(--primary-font);
   margin: 1em;
 }
 
@@ -86,9 +89,9 @@ p {
   min-width: 100px;
   height: 45px;
   padding: 8px;
-  border-radius: 5%;
+  border-radius: 5rem;
   color: #055dc2;
-  border: 2.5px solid #055dc2;
+  border: 1px solid #055dc2;
   cursor: pointer;
   background-color: transparent;
   font-family: sans-serif;
@@ -102,15 +105,14 @@ p {
 
 .wrap {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pic {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   padding: 10px;
-  margin: 1px;
+  margin: 0.3em;
 }
 
 .main-sec03 {
@@ -128,25 +130,30 @@ p {
   min-width: 100px;
   height: 45px;
   padding: 8px;
-  border-radius: 5%;
+  border-radius: 5rem;
   color: #fff;
-  border: 2.5px solid #fcfcfc;
+  border: 1px solid #fcfcfc;
   cursor: pointer;
   background-color: transparent;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
 
-.span {
+span {
   color: #007bff;
 }
 
 .main-sec04 {
-  padding: 5%;
-  margin: 3%;
+  padding: 1em;
+  margin: 1em;
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-evenly;
+  gap: 3.5em;
+}
+.cap {
+  display: block;
+  align-items: center;
+  width: 40px;
 }
 
 .main-sec05 {
@@ -154,7 +161,7 @@ p {
 }
 
 .flex-on {
-  margin: 2%;
+  margin: 0.6em;
   padding: 1em;
 }
 
@@ -162,8 +169,8 @@ p {
   display: block;
   justify-content: space-evenly;
   align-items: center;
-  margin: 2%, auto;
-  padding: 5%;
+  margin: 1em, auto;
+  padding: 1.2em;
   background-color: #eaeaea;
 }
 
@@ -266,8 +273,8 @@ p {
   display: block;
   justify-content: space-evenly;
   align-items: center;
-  margin: 2%, auto;
-  padding: 5%;
+  margin: 1.3em, auto;
+  padding: 2em;
   background-color: #fdfbfb;
 }
 
