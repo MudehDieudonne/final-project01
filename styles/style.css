@@ -33,7 +33,7 @@ body {
   width: 75%;
 }
 
-.nav {
+.topnav {
   display: none;
 }
 
@@ -60,9 +60,11 @@ h4 {
   font-weight: bolder;
   color: #08f;
 }
+
 :root {
   --primary-font: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
+
 h2 {
   font-family: var(--primary-font);
 }
@@ -109,8 +111,8 @@ p {
 }
 
 .pic {
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   padding: 10px;
   margin: 0.3em;
 }
@@ -150,6 +152,7 @@ span {
   justify-content: space-evenly;
   gap: 3.5em;
 }
+
 .cap {
   display: block;
   align-items: center;
@@ -336,5 +339,129 @@ li {
 /* footer end */
 
 @media only screen and (min-width: 720px) {
-  /* For  pc design */
+.navbar {
+  display: flex;
+}
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color: transparent;
+  display: flex;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1.5em ;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: transparent;
+  color: #008cff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: rgb(0, 85, 255);
+}
+
+.hero {
+  margin: 0.9em;
+  padding: 9em 3em;
+  width: 60%;
+}
+
+.main-sec02 {
+  display: flex;
+}
+
+.sec-02 {
+  width: 70%;
+  height: 95%;
+  border-radius: 10px;
+  
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  justify-content: center;
+  margin: 2em;
+  padding: 2em;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+}
+
+.main-sec03 {
+  height: 60vh;
+  display: block;
+}
+
+.main-sec04 {
+  border-top: 1px solid grey;
+}
+
+.main-sec05 {
+  display: block;
+  background-color: rgba(237, 237, 237, 0.993);
+}
+
+.flex-on {
+  display: flex;
+  padding: 2em;
+  margin: 2em;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.funny-sec {
+  display: flex;
+  padding: 2.5rem;
+  margin: 2rem;
+}
+
+.main-sec06 {
+  display: flex;
+}
+.sec6-img {
+  border-radius: 10px;
+}
+
+.sec07-1 {
+  padding: 2.5rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.grid-sec07 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  display: block;
+}
+
+.foot-tilt {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy-right-sec {
+  text-align: center;
+}
+
 }
