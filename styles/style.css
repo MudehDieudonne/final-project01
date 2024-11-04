@@ -60,9 +60,11 @@ h4 {
   font-weight: bolder;
   color: #08f;
 }
+
 :root {
-  --primary-font: "Segoe UI", Tahoma, Verdana, sans-serif;
+  --primary-font: "Segoe UI", tahoma, verdana, sans-serif;
 }
+
 h2 {
   font-family: var(--primary-font);
 }
@@ -150,6 +152,7 @@ span {
   justify-content: space-evenly;
   gap: 3.5em;
 }
+
 .cap {
   display: block;
   align-items: center;
