@@ -23,14 +23,14 @@ body {
 }
 
 .logo {
-  padding: 0.7rem;
-  margin: 0.8rem;
+  padding: 0.6rem;
+  margin: 0.6rem;
 }
 
 .hero {
-  margin: 0.9em;
-  padding: 1em;
-  width: 75%;
+  margin: 0.6em;
+  padding: 0.5em;
+  width: 65%;
 }
 
 .topnav {
@@ -125,6 +125,10 @@ p {
   background-position: center;
   justify-items: center;
   color: aliceblue;
+}
+
+.sec3 {
+  text-align: center;
 }
 
 .class-butt {
@@ -248,10 +252,19 @@ span {
   width: 70%;
 }
 
+.funny-sec {
+  display: flex;
+  flex-direction: column;
+}
+
+.fun-img {
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+}
+
 .funcard-img {
-  border-radius: 50%;
   padding: 0.2em;
-  margin: 1em;
 }
 
 .main-sec06 {
@@ -259,8 +272,6 @@ span {
 }
 
 .sec6-img {
-  border-radius: 30px;
-  border-radius: 50%;
   padding: 1em;
   margin: 1em;
 }
@@ -338,7 +349,7 @@ li {
 
 /* footer end */
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 600px) {
 .navbar {
   display: flex;
 }
@@ -376,13 +387,23 @@ li {
 
 .main-sec02 {
   display: flex;
+  margin: 2em;
+  padding: 2em;
 }
 
 .sec-02 {
-  width: 70%;
+  width: 80%;
   height: 95%;
   border-radius: 10px;
   
+}
+
+.sec, h4, h2, p {
+  padding-left: 0.2em;
+}
+
+.sec2-img {
+  border-radius: 0.7em;
 }
 
 .wrap {
@@ -394,8 +415,8 @@ li {
 }
 
 .pic {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 
 .main-sec03 {
@@ -403,8 +424,13 @@ li {
   display: block;
 }
 
+.sec3 {
+  text-align: center;
+  padding-top: 5rem;
+}
+
 .main-sec04 {
-  border-top: 1px solid grey;
+  border-radius: 2rem;
 }
 
 .main-sec05 {
@@ -426,14 +452,33 @@ li {
 .funny-sec {
   display: flex;
   padding: 2.5rem;
-  margin: 2rem;
+}
+
+.fun-img {
+  height: 100%;
 }
 
 .main-sec06 {
   display: flex;
+  flex-direction: row;
 }
+
+.s6-img {
+  border-radius: 10px;
+  height: fit-content;
+}
+
 .sec6-img {
   border-radius: 10px;
+}
+
+.cards-2 {
+  .grid{
+    .grid-item{
+      display: flex;
+      flex-direction: row;
+    }
+  }
 }
 
 .sec07-1 {
