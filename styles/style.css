@@ -353,29 +353,30 @@ li {
   .navbar {
     display: flex;
   }
+  
   /* Add a black background color to the top navigation */
   .topnav {
     background-color: transparent;
     display: flex;
   }
 
-/* Style the links inside the navigation bar */
+  /* Style the links inside the navigation bar */
   .topnav a {
     color: #f2f2f2;
     text-align: center;
-    padding: 1.5em ;
+    padding: 1.5em;
     text-decoration: none;
   }
 
-/* Change the color of links on hover */
+  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: transparent;
     color: #008cff;
   }
 
-/* Add a color to the active/current link */
+  /* Add a color to the active/current link */
   .topnav a.active {
-    color: rgb(0, 85, 255);
+    color: #0055ff;
   }
 
   .hero {
@@ -396,7 +397,10 @@ li {
     border-radius: 10px;
   }
 
-  .sec, h4, h2, p {
+  .sec,
+  h4,
+  h2,
+  p {
     padding-left: 0.2em;
   }
 
@@ -433,7 +437,7 @@ li {
 
   .main-sec05 {
     display: block;
-    background-color: rgba(237, 237, 237, 0.993);
+    background-color: #edededfd;
   }
 
   .flex-on {
@@ -470,10 +474,7 @@ li {
     border-radius: 10px;
   }
 
-  .cards-2 {
-  
-  }
-
+  /* Card dtuff here */
   .sec07-1 {
     padding: 2.5rem;
     margin: 2rem;
