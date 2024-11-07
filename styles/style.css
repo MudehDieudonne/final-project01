@@ -62,7 +62,7 @@ h4 {
 }
 
 :root {
-  --primary-font: "Segoe UI", Tahoma, Verdana, sans-serif;
+  --primary-font: "Segoe UI", tahoma, verdana, sans-serif;
 }
 
 h2 {
@@ -350,163 +350,155 @@ li {
 /* footer end */
 
 @media only screen and (min-width: 600px) {
-.navbar {
-  display: flex;
-}
+  .navbar {
+    display: flex;
+  }
   /* Add a black background color to the top navigation */
-.topnav {
-  background-color: transparent;
-  display: flex;
-}
+  .topnav {
+    background-color: transparent;
+    display: flex;
+  }
 
 /* Style the links inside the navigation bar */
-.topnav a {
-  
-  color: #f2f2f2;
-  text-align: center;
-  padding: 1.5em ;
-  text-decoration: none;
-}
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5em ;
+    text-decoration: none;
+  }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: transparent;
-  color: #008cff;
-}
+  .topnav a:hover {
+    background-color: transparent;
+    color: #008cff;
+  }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  color: rgb(0, 85, 255);
-}
-
-.hero {
-  margin: 0.9em;
-  padding: 9em 3em;
-  width: 60%;
-}
-
-.main-sec02 {
-  display: flex;
-  margin: 2em;
-  padding: 2em;
-}
-
-.sec-02 {
-  width: 80%;
-  height: 95%;
-  border-radius: 10px;
-  
-}
-
-.sec, h4, h2, p {
-  padding-left: 0.2em;
-}
-
-.sec2-img {
-  border-radius: 0.7em;
-}
-
-.wrap {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
-  justify-content: center;
-  margin: 2em;
-  padding: 2em;
-}
-
-.pic {
-  width: 60px;
-  height: 60px;
-}
-
-.main-sec03 {
-  height: 60vh;
-  display: block;
-}
-
-.sec3 {
-  text-align: center;
-  padding-top: 5rem;
-}
-
-.main-sec04 {
-  border-radius: 2rem;
-}
-
-.main-sec05 {
-  display: block;
-  background-color: rgba(237, 237, 237, 0.993);
-}
-
-.flex-on {
-  display: flex;
-  padding: 2em;
-  margin: 2em;
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.funny-sec {
-  display: flex;
-  padding: 2.5rem;
-}
-
-.fun-img {
-  height: 100%;
-}
-
-.main-sec06 {
-  display: flex;
-  flex-direction: row;
-}
-
-.s6-img {
-  border-radius: 10px;
-  height: fit-content;
-}
-
-.sec6-img {
-  border-radius: 10px;
-}
-
-.cards-2 {
-  .grid{
-    .grid-item{
-      display: flex;
-      flex-direction: row;
-    }
+  .topnav a.active {
+    color: rgb(0, 85, 255);
   }
-}
 
-.sec07-1 {
-  padding: 2.5rem;
-  margin: 2rem;
-  text-align: center;
-}
+  .hero {
+    margin: 0.9em;
+    padding: 9em 3em;
+    width: 60%;
+  }
 
-.grid-sec07 {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .main-sec02 {
+    display: flex;
+    margin: 2em;
+    padding: 2em;
+  }
 
-footer {
-  display: block;
-}
+  .sec-02 {
+    width: 80%;
+    height: 95%;
+    border-radius: 10px;
+  }
 
-.foot-tilt {
-  text-align: center;
-}
+  .sec, h4, h2, p {
+    padding-left: 0.2em;
+  }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-}
+  .sec2-img {
+    border-radius: 0.7em;
+  }
 
-.copy-right-sec {
-  text-align: center;
-}
+  .wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    justify-content: center;
+    margin: 2em;
+    padding: 2em;
+  }
 
+  .pic {
+    width: 60px;
+    height: 60px;
+  }
+
+  .main-sec03 {
+    height: 60vh;
+    display: block;
+  }
+
+  .sec3 {
+    text-align: center;
+    padding-top: 5rem;
+  }
+
+  .main-sec04 {
+    border-radius: 2rem;
+  }
+
+  .main-sec05 {
+    display: block;
+    background-color: rgba(237, 237, 237, 0.993);
+  }
+
+  .flex-on {
+    display: flex;
+    padding: 2em;
+    margin: 2em;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .funny-sec {
+    display: flex;
+    padding: 2.5rem;
+  }
+
+  .fun-img {
+    height: 100%;
+  }
+
+  .main-sec06 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .s6-img {
+    border-radius: 10px;
+    height: fit-content;
+  }
+
+  .sec6-img {
+    border-radius: 10px;
+  }
+
+  .cards-2 {
+  
+  }
+
+  .sec07-1 {
+    padding: 2.5rem;
+    margin: 2rem;
+    text-align: center;
+  }
+
+  .grid-sec07 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    display: block;
+  }
+
+  .foot-tilt {
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copy-right-sec {
+    text-align: center;
+  }
 }
